@@ -1,0 +1,218 @@
+[
+    {
+        "id": 1,
+        "name": "Corporate Office",
+        "position": "Headquarters",
+        "department": "Administration",
+        "email": "Corporate@abc.com",
+        "subItems": [
+            {
+                "id": 11,
+                "name": "Executive Team",
+                "position": "Executive",
+                "department": "Corporate Office",
+                "email": "",
+                "subItems": [
+                    {
+                        "id": 111,
+                        "name": "Pankaj Kumar",
+                        "position": "CEO",
+                        "department": "Executive Team",
+                        "email": "pumar@company.com"
+                    },
+                    {
+                        "id": 112,
+                        "name": "Ranjeet Konkar",
+                        "position": "CFO",
+                        "department": "Executive Team",
+                        "email": "rsonkar@company.com"
+                    },
+                    {
+                        "id": 113,
+                        "name": "Mayank Shukla",
+                        "position": "COO",
+                        "department": "Executive Team",
+                        "email": "mshukla@company.com"
+                    }
+                ]
+            },
+            {
+                "id": 12,
+                "name": "Marketing Department",
+                "position": "Marketing",
+                "department": "Corporate Office",
+                "email": "",
+                "subItems": [
+                    {
+                        "id": 121,
+                        "name": "Krishna Gopal Gupta",
+                        "position": "Marketing Manager",
+                        "department": "Marketing",
+                        "email": "kgg@company.com"
+                    },
+                    {
+                        "id": 122,
+                        "name": "Nikhil Pandey",
+                        "position": "SEO Specialist",
+                        "department": "Marketing",
+                        "email": "npandey@company.com"
+                    },
+                    {
+                        "id": 123,
+                        "name": "Palak Sharma",
+                        "position": "Content Creator",
+                        "department": "Marketing",
+                        "email": "psharma@company.com"
+                    }
+                ]
+            },
+            {
+                "id": 13,
+                "name": "Human Resources",
+                "position": "HR",
+                "department": "Corporate Office",
+                "email": "",
+                "subItems": [
+                    {
+                        "id": 131,
+                        "name": "Divya Maurya",
+                        "position": "HR Manager",
+                        "department": "Human Resources",
+                        "email": "dmaurya@company.com"
+                    },
+                    {
+                        "id": 132,
+                        "name": "Shambhavi",
+                        "position": "Recruiter",
+                        "department": "Human Resources",
+                        "email": "sambhavi@company.com"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Sales Department",
+        "position": "Sales",
+        "department": "Sales",
+        "email": "Sales@abc.com",
+        "subItems": [
+            {
+                "id": 21,
+                "name": "North America Sales",
+                "position": "Regional Sales",
+                "department": "Sales Department",
+                "email": "",
+                "subItems": [
+                    {
+                        "id": 211,
+                        "name": "Henry Black",
+                        "position": "Regional Manager",
+                        "department": "North America Sales",
+                        "email": "henryblack@company.com"
+                    },
+                    {
+                        "id": 212,
+                        "name": "Irene Johnson",
+                        "position": "Sales Rep",
+                        "department": "North America Sales",
+                        "email": "irenejohnson@company.com"
+                    },
+                    {
+                        "id": 213,
+                        "name": "Jack White",
+                        "position": "Sales Rep",
+                        "department": "North America Sales",
+                        "email": "jackwhite@company.com"
+                    }
+                ]
+            },
+            {
+                "id": 22,
+                "name": "Asia Sales",
+                "position": "Regional Sales",
+                "department": "Sales Department",
+                "email": "",
+                "subItems": [
+                    {
+                        "id": 221,
+                        "name": "Manish singh",
+                        "position": "Regional Manager",
+                        "department": "Asia Sales",
+                        "email": "msingh@company.com"
+                    },
+                    {
+                        "id": 222,
+                        "name": "Pulkit jain",
+                        "position": "Sales Rep",
+                        "department": "Asia Sales",
+                        "email": "pjain@company.com"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Product Development",
+        "position": "Development",
+        "department": "Product Development",
+        "email": "Product@abc.com",
+        "subItems": [
+            {
+                "id": 31,
+                "name": "Software Development",
+                "position": "Development",
+                "department": "Product Development",
+                "email": "",
+                "subItems": [
+                    {
+                        "id": 311,
+                        "name": "Jalaj",
+                        "position": "Frontend Team Lead",
+                        "department": "Software Development",
+                        "email": "jalaj@company.com"
+                    },
+                    {
+                        "id": 312,
+                        "name": "Nitin singh",
+                        "position": "Backend Team Lead",
+                        "department": "Software Development",
+                        "email": "nsingh@company.com"
+                    },
+                    {
+                        "id": 313,
+                        "name": "Neelanjana",
+                        "position": "QA Team Lead",
+                        "department": "Software Development",
+                        "email": "nelanjana@company.com"
+                    }
+                ]
+            },
+            {
+                "id": 32,
+                "name": "Hardware Development",
+                "position": "Development",
+                "department": "Product Development",
+                "email": "",
+                "subItems": [
+                    {
+                        "id": 321,
+                        "name": "Nitish kumar",
+                        "position": "Design Team Lead",
+                        "department": "Hardware Development",
+                        "email": "nkumar@company.com"
+                    },
+                    {
+                        "id": 322,
+                        "name": "Raghav sharma",
+                        "position": "Manufacturing Team Lead",
+                        "department": "Hardware Development",
+                        "email": "rsharma@company.com"
+                    }
+                ]
+            }
+        ]
+    }
+]

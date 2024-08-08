@@ -1,0 +1,99 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+}
+
+.top-nav {
+  background-color: #333;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.top-nav .logo {
+  position: absolute;
+  left: 20px;
+  height: 40px;
+}
+
+.top-nav h1 {
+  margin: 0;
+}
+
+.main-container {
+  display: flex;
+  margin-top: 60px;
+  /* Adjust based on top-nav height */
+  flex: 1;
+  /* Ensures main content area takes up remaining space */
+}
+
+.nav {
+  background-color: #333;
+  color: white;
+  width: 200px;
+  height: calc(100vh - 60px);
+  /* Adjust based on top-nav height */
+  padding-top: 20px;
+  position: fixed;
+}
+
+.nav h2 {
+  text-align: center;
+}
+
+.nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.nav ul li {
+  padding: 10px;
+  text-align: center;
+}
+
+.nav ul li a {
+  color: white;
+  text-decoration: none;
+  display: block;
+}
+
+.nav ul li a:hover {
+  background-color: #575757;
+}
+
+.content {
+  margin-left: 220px;
+  /* Adjust based on nav width */
+  padding: 20px;
+  width: 100%;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.footer {
+
+  color: #36dce2;
+  text-align: center;
+  padding: 10px 0;
+  position: relative;
+  width: 100%;
+  bottom: 0;
+}
